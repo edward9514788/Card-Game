@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+
+  margin: 0;
+  background-color: pink;
+}
+
+
+nav > ul{
+
+  display: flex;
+  /*align-items: center;*/
+  background-color: aqua;
+
+}
+
+nav > ul > li{
+
+  width: 33%;
+  text-align: center;
+  list-style: none;
+
+}
+
+.headerComponent {
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+
+.bodyComponent{
+
+  display: flex;
+  background-color: red;
+  height: 80%;
+
+}
+
+/*.bodyComponentList{
+
+  width: 33%;
+  text-align: center;
+  list-style: none;
+
+}*/
+
+.bodyComponent > li{
+
+  width: 33%;
+  text-align: center;
+  list-style: none;
+
+}
+
+.listItem1{
+  background-color: yellow;
+  margin: 20px;
+}
+
+.listItem2{
+  background-color: green;
+  margin: 20px;
+}
+
+.listItem3{
+  background-color: blue;
+  margin: 20px;
+}
+
