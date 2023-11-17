@@ -3,14 +3,14 @@ function PlayerComponent(props) {
     
         <div className="">
 
-            <h4> {props.player.name} Health 100% </h4>
+            <h4> {props.player.name} Health {props.player.health}% </h4>
 
-            <img src="Goku.jpg"></img> <br></br>
+            <img src= {props.player.characterImage}></img> <br></br>
 
             <select name="Attack" id="Attack">
-                <option value="Attack 1">Attack 1</option>
-                <option value="Attack 2">Attack 2</option>
-                <option value="Attack 3">Attack 3</option>
+                <option value="Attack 1">{props.player.attacks[0].attackName}</option>
+                <option value="Attack 2">{props.player.attacks[1].attackName}</option>
+                <option value="Attack 3">{props.player.attacks[2].attackName}</option>
             </select>
 
             <select name="Defend" id="Defend">

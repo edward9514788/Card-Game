@@ -12,7 +12,7 @@ function BodyComponent() {
 
             <li className="listItem1"><PlayerComponent player= {characterData[0]}></PlayerComponent> </li>
             <li className="listItem2"><PlayAreaComponent></PlayAreaComponent></li>
-            <li className="listItem3"><PlayerComponent player= {characterData[0]}></PlayerComponent></li>
+            <li className="listItem3"><PlayerComponent player= {characterData[1]}></PlayerComponent></li>
 
         </ul>
 
