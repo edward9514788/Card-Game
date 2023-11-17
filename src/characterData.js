@@ -1,5 +1,5 @@
 
-[
+export default [
     {
         name: "Goku",
         health: 100,
@@ -24,5 +24,30 @@
             }
         ],
         characterImage: "Goku.jpg"
+    },
+    {
+        name: "Vegeta",
+        health: 100,
+        attacks: [
+            {
+                attackName: "Galick Gun",
+                attackDescription: "A powerful purple energy wave",
+                attackImage: "GalickGun.jpg"
+
+            },
+            {
+                attackName: "Final Explosion",
+                attackDescription: "A powerful large explosion wave",
+                attackImage: "FinalExplosion.jpg"
+
+            },
+            {
+                attackName: "Final Flash",
+                attackDescription: "A powerful two-handed energy wave",
+                attackImage: "FinalFlash.jpg"
+
+            }
+        ],
+        characterImage: "Vegeta.jpg"
     }
 ]

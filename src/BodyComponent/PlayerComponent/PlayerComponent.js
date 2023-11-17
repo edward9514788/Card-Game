@@ -1,9 +1,9 @@
-function PlayerComponent() {
+function PlayerComponent(props) {
     return (
     
         <div className="">
 
-            <h4> Player Health 100% </h4>
+            <h4> {props.player.name} Health 100% </h4>
 
             <img src="Goku.jpg"></img> <br></br>
 
