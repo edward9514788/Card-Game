@@ -23,6 +23,26 @@ export default [
 
             }
         ],
+        defends: [
+            {
+                defendName: "SolarFlare",
+                defendDescription: "A powerful blinding move",
+                defendImage: "SolarFlare.jpg"
+
+            },
+            {
+                defendName: "Dodge",
+                defendDescription: "A powerful dodge defense",
+                defendImage: "DodgeGoku.jpg"
+
+            },
+            {
+                defendName: "Heal",
+                defendDescription: "A healing technique that restores health",
+                defendImage: "HealGoku.jpg"
+
+            }
+        ],
         characterImage: "Goku.jpg"
     },
     {
@@ -45,6 +65,26 @@ export default [
                 attackName: "Final Flash",
                 attackDescription: "A powerful two-handed energy wave",
                 attackImage: "FinalFlash.jpg"
+
+            }
+        ],
+        defends: [
+            {
+                defendName: "SolarFlare",
+                defendDescription: "A powerful blinding move",
+                defendImage: "SolarFlare.jpg"
+
+            },
+            {
+                defendName: "Dodge",
+                defendDescription: "A powerful dodge defense",
+                defendImage: "DodgeVegeta.jpg"
+
+            },
+            {
+                defendName: "Heal",
+                defendDescription: "A healing technique that restores health",
+                defendImage: "HealVegeta.jpg"
 
             }
         ],
