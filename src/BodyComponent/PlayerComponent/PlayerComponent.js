@@ -1,11 +1,11 @@
-function Player2Component() {
+function PlayerComponent() {
     return (
     
         <div className="">
 
-            <h4> Player 2 Health 100% </h4>
+            <h4> Player Health 100% </h4>
 
-            <img src="Vegeta.jpg"></img> <br></br>
+            <img src="Goku.jpg"></img> <br></br>
 
             <select name="Attack" id="Attack">
                 <option value="Attack 1">Attack 1</option>
@@ -23,8 +23,7 @@ function Player2Component() {
 
         </div>
 
-
     );
   }
   
-  export default Player2Component;
+  export default PlayerComponent;
