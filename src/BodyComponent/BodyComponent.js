@@ -7,7 +7,7 @@ function BodyComponent() {
 
     const [isDisabled, setIsDisabledState] = useState(false)
 
-    const [attackMessage, setAttackMessage] = useState("1")
+    const [attackMessage, setAttackMessage] = useState("")
     const [defendMessage, setDefendMessage] = useState("")
 
     function onAttackClickHandler() {
@@ -34,7 +34,7 @@ function BodyComponent() {
                     attackHandler={onAttackClickHandler}
                     liftHandler= {liftUpDataHandler}></PlayerComponent> </li>
 
-                <li className="listItem2"><PlayAreaComponent></PlayAreaComponent></li>
+                <li className="listItem2"><PlayAreaComponent attackMessage={attackMessage} defendMessage={defendMessage}></PlayAreaComponent></li>
 
                 <li className="listItem3"><PlayerComponent
                 player= {characterData[1]}
@@ -45,7 +45,6 @@ function BodyComponent() {
                 
             </ul>
             
-            <div>{attackMessage + defendMessage}</div>
 
         </div>
         
