@@ -14,10 +14,14 @@ function PlayerComponent(props) {
             </select>
 
             <select name="Defend" id="Defend">
-                <option value="Defend 1">Defend 1</option>
-                <option value="Defend 2">Defend 2</option>
-                <option value="Defend 3">Defend 3</option>
+                <option value="Defend 1">{props.player.defends[0].defendName}</option>
+                <option value="Defend 2">{props.player.defends[1].defendName}</option>
+                <option value="Defend 3">{props.player.defends[2].defendName}</option>
             </select>
+
+            <br/> <br/>
+
+            <button>Play</button>
 
 
 
