@@ -14,6 +14,9 @@ function BodyComponent() {
 
         setIsDisabledState( prevDisabledState => !prevDisabledState)
 
+        setAttackMessage("")
+        setDefendMessage("")
+
     }
 
     function liftUpDataHandler(e) {
