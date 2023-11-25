@@ -7,21 +7,48 @@ function BodyComponent() {
 
     const [isDisabled, setIsDisabledState] = useState(false)
 
+    const [attackMessage, setAttackMessage] = useState("1")
+    const [defendMessage, setDefendMessage] = useState("")
+
     function onAttackClickHandler() {
 
         setIsDisabledState( prevDisabledState => !prevDisabledState)
 
     }
 
+    function liftUpDataHandler(e) {
+        
+        (e.target.name === "Attack")? setAttackMessage(e.target.value + "") : setDefendMessage(e.target.value + "")
+        
+    }
+
     return (
     
-        <ul className="bodyComponent">
+        <div>
 
-            <li className="listItem1"><PlayerComponent player= {characterData[0]} isDisabled= {isDisabled} attackHandler={onAttackClickHandler}></PlayerComponent> </li>
-            <li className="listItem2"><PlayAreaComponent></PlayAreaComponent></li>
-            <li className="listItem3"><PlayerComponent player= {characterData[1]} isDisabled= {!isDisabled} attackHandler={onAttackClickHandler}></PlayerComponent></li>
+            <ul className="bodyComponent">
 
-        </ul>
+                <li className="listItem1"><PlayerComponent
+                    player= {characterData[0]}
+                    isDisabled= {isDisabled}
+                    attackHandler={onAttackClickHandler}
+                    liftHandler= {liftUpDataHandler}></PlayerComponent> </li>
+
+                <li className="listItem2"><PlayAreaComponent></PlayAreaComponent></li>
+
+                <li className="listItem3"><PlayerComponent
+                player= {characterData[1]}
+                isDisabled= {!isDisabled}
+                attackHandler={onAttackClickHandler}
+                liftHandler= {liftUpDataHandler}></PlayerComponent></li>
+
+                
+            </ul>
+            
+            <div>{attackMessage + defendMessage}</div>
+
+        </div>
+        
 
     );
   }
