@@ -3,7 +3,7 @@ import HeaderComponent from "./HeaderComponent/HeaderComponent";
 
 function App() {
   return (
-    <div> 
+    <div className="appComponent"> 
       
       <HeaderComponent> </HeaderComponent>
 

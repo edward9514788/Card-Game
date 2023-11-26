@@ -33,7 +33,6 @@ function BodyComponent() {
 
     return (
     
-        <div>
 
             <ul className="bodyComponent">
 
@@ -55,7 +54,6 @@ function BodyComponent() {
             </ul>
             
 
-        </div>
         
 
     );

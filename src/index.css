@@ -3,7 +3,7 @@
 }
 
 body{
-
+  height: 100%;
   margin: 0;
   background-color: pink;
 }
@@ -35,7 +35,12 @@ nav > ul > li{
 
   display: flex;
   background-color: red;
-  height: 80%;
+  height: 100%;
+
+}
+
+.appComponent{
+  height: 100%;
 
 }
 
