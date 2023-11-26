@@ -17,6 +17,12 @@ function BodyComponent() {
         setAttackMessage("")
         setDefendMessage("")
 
+        document.getElementsByClassName("Attack")[0].selectedIndex = 0
+        document.getElementsByClassName("Defend")[0].selectedIndex = 0
+
+        document.getElementsByClassName("Attack")[1].selectedIndex = 0
+        document.getElementsByClassName("Defend")[1].selectedIndex = 0
+
     }
 
     function liftUpDataHandler(e) {
