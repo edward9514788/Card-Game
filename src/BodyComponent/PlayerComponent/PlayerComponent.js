@@ -1,7 +1,7 @@
 function PlayerComponent(props) {
     return (
     
-        <div className="">
+        <div className="playerComponent">
 
             <h4> {props.player.name} Health {props.player.health}% </h4>
 

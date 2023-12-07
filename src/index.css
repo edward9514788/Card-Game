@@ -8,16 +8,20 @@ body{
   background-color: pink;
 }
 
+.headerComponent {
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+}
 
-nav > ul{
+.headerComponent > ul{
 
   display: flex;
-  /*align-items: center;*/
   background-color: aqua;
 
 }
 
-nav > ul > li{
+.headerComponent > ul > li{
 
   width: 33%;
   text-align: center;
@@ -25,17 +29,12 @@ nav > ul > li{
 
 }
 
-.headerComponent {
-  height: 100%;
-  margin: 0%;
-  padding: 0%;
-}
-
 .bodyComponent{
 
   display: flex;
   background-color: red;
-  height: 100%;
+  height: 100vh;
+
 
 }
 
@@ -46,43 +45,30 @@ nav > ul > li{
 
 }
 
-/*.bodyComponentList{
-
-  width: 33%;
-  text-align: center;
-  list-style: none;
-
-}*/
-
-.bodyComponent > li{
-
-  width: 33%;
-  text-align: center;
-  list-style: none;
-
-}
-
-.listItem1{
-  background-color: yellow;
-  margin: 20px;
-}
-
-.listItem2{
-  background-color: green;
-  margin: 20px;
-}
-
-.listItem3{
-  background-color: blue;
-  margin: 20px;
-}
-
 .actionCardComponent{
 
   border-color: black;
   border-style: ridge;
   border-width: 9px;
   background-color: rgb(18, 122, 122);
+  margin: 70px;
   
 }
 
+.playerComponent{
+
+  border-color:black;
+  border-style: ridge;
+  border-width: 10px;
+  background-color: aqua;
+  width:33%;
+  text-align: center;
+  margin: 70px;
+  height: 50%;
+}
+
+.playAreaComponent{
+
+  width: 33%;
+  text-align: center;
+}

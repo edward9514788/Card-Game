@@ -20,8 +20,8 @@ function BodyComponent() {
 
         setIsDisabledState( prevDisabledState => !prevDisabledState)
 
-        setAttackMessage("")
-        setDefendMessage("")
+        setAttackMessage({})
+        setDefendMessage({})
 
         document.getElementsByClassName("Attack")[0].selectedIndex = 0
         document.getElementsByClassName("Defend")[0].selectedIndex = 0
@@ -48,24 +48,24 @@ function BodyComponent() {
     return (
     
 
-            <ul className="bodyComponent">
+            <div className="bodyComponent">
 
-                <li className="listItem1"><PlayerComponent
+                <PlayerComponent
                     player= {player1Data}
                     isDisabled= {isDisabled}
                     attackHandler={onAttackClickHandler}
-                    liftHandler= {liftUpDataHandler}></PlayerComponent> </li>
+                    liftHandler= {liftUpDataHandler}></PlayerComponent>
 
-                <li className="listItem2"><PlayAreaComponent attackMessage={attackMessage} defendMessage={defendMessage}></PlayAreaComponent></li>
+                <PlayAreaComponent attackMessage={attackMessage} defendMessage={defendMessage}></PlayAreaComponent>
 
-                <li className="listItem3"><PlayerComponent
+                <PlayerComponent
                 player= {player2Data}
                 isDisabled= {!isDisabled}
                 attackHandler={onAttackClickHandler}
-                liftHandler= {liftUpDataHandler}></PlayerComponent></li>
+                liftHandler= {liftUpDataHandler}></PlayerComponent>
 
                 
-            </ul>
+            </div>
             
 
         
