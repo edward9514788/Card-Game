@@ -4,7 +4,7 @@ function ActionCard(props) {
 
         <h1>{props.actionMessage.actionName}</h1>
         <h3>{props.actionMessage.actionDescription}</h3>
-        <img src={props.actionMessage.actionImage}></img>
+        <img style= {{width: "200px", height: "200px"}} src={props.actionMessage.actionImage}></img>
 
         
         

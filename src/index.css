@@ -77,3 +77,12 @@ nav > ul > li{
   margin: 20px;
 }
 
+.actionCardComponent{
+
+  border-color: black;
+  border-style: ridge;
+  border-width: 9px;
+  background-color: rgb(18, 122, 122);
+  
+}
+
