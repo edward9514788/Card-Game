@@ -9,16 +9,16 @@ function PlayerComponent(props) {
 
             <select disabled= {props.isDisabled} className="Attack" name="Attack" id="Attack" onChange= {props.liftHandler}>
                 <option value= ""> Select an Attack </option>
-                <option value={props.player.attacks[0].attackName}>{props.player.attacks[0].attackName}</option>
-                <option value={props.player.attacks[1].attackName}>{props.player.attacks[1].attackName}</option>
-                <option value={props.player.attacks[2].attackName}>{props.player.attacks[2].attackName}</option>
+                <option value= "0">{props.player.attacks[0].attackName}</option>
+                <option value= "1">{props.player.attacks[1].attackName}</option>
+                <option value= "2">{props.player.attacks[2].attackName}</option>
             </select>
 
             <select disabled= {props.isDisabled} className="Defend" name="Defend" id="Defend" onChange= {props.liftHandler}>
                 <option value= ""> Select a Defense </option>
-                <option value={props.player.defends[0].defendName}>{props.player.defends[0].defendName}</option>
-                <option value={props.player.defends[1].defendName}>{props.player.defends[1].defendName}</option>
-                <option value={props.player.defends[2].defendName}>{props.player.defends[2].defendName}</option>
+                <option value= "0">{props.player.defends[0].defendName}</option>
+                <option value= "1">{props.player.defends[1].defendName}</option>
+                <option value= "2">{props.player.defends[2].defendName}</option>
             </select>
 
             <br/> <br/>
