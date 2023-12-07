@@ -5,41 +5,41 @@ export default [
         health: 100,
         attacks: [
             {
-                attackName: "Kamehameha",
-                attackDescription: "A powerful blue energy wave",
-                attackImage: "Kamehameha.jpg"
+                actionName: "Kamehameha",
+                actionDescription: "A powerful blue energy wave",
+                actionImage: "Kamehameha.jpg"
 
             },
             {
-                attackName: "Spirit Bomb",
-                attackDescription: "A powerful large blue energy bomb",
-                attackImage: "SpiritBomb.jpg"
+                actionName: "Spirit Bomb",
+                actionDescription: "A powerful large blue energy bomb",
+                actionImage: "SpiritBomb.jpg"
 
             },
             {
-                attackName: "Kaioken",
-                attackDescription: "A powerful dashing red combo",
-                attackImage: "Kaioken.jpg"
+                actionName: "Kaioken",
+                actionDescription: "A powerful dashing red combo",
+                actionImage: "Kaioken.jpg"
 
             }
         ],
         defends: [
             {
-                defendName: "SolarFlare",
-                defendDescription: "A powerful blinding move",
-                defendImage: "SolarFlare.jpg"
+                actionName: "SolarFlare",
+                actionDescription: "A powerful blinding move",
+                actionImage: "SolarFlare.jpg"
 
             },
             {
-                defendName: "Dodge",
-                defendDescription: "A powerful dodge defense",
-                defendImage: "DodgeGoku.jpg"
+                actionName: "Dodge",
+                actionDescription: "A powerful dodge defense",
+                actionImage: "DodgeGoku.jpg"
 
             },
             {
-                defendName: "Heal",
-                defendDescription: "A healing technique that restores health",
-                defendImage: "HealGoku.jpg"
+                actionName: "Heal",
+                actionDescription: "A healing technique that restores health",
+                actionImage: "HealGoku.jpg"
 
             }
         ],
@@ -50,41 +50,41 @@ export default [
         health: 100,
         attacks: [
             {
-                attackName: "Galick Gun",
-                attackDescription: "A powerful purple energy wave",
-                attackImage: "GalickGun.jpg"
+                actionName: "Galick Gun",
+                actionDescription: "A powerful purple energy wave",
+                actionImage: "GalickGun.jpg"
 
             },
             {
-                attackName: "Final Explosion",
-                attackDescription: "A powerful large explosion wave",
-                attackImage: "FinalExplosion.jpg"
+                actionName: "Final Explosion",
+                actionDescription: "A powerful large explosion wave",
+                actionImage: "FinalExplosion.jpg"
 
             },
             {
-                attackName: "Final Flash",
-                attackDescription: "A powerful two-handed energy wave",
-                attackImage: "FinalFlash.jpg"
+                actionName: "Final Flash",
+                actionDescription: "A powerful two-handed energy wave",
+                actionImage: "FinalFlash.jpg"
 
             }
         ],
         defends: [
             {
-                defendName: "SolarFlare",
-                defendDescription: "A powerful blinding move",
-                defendImage: "SolarFlare.jpg"
+                actionName: "SolarFlare",
+                actionDescription: "A powerful blinding move",
+                actionImage: "SolarFlare.jpg"
 
             },
             {
-                defendName: "Dodge",
-                defendDescription: "A powerful dodge defense",
-                defendImage: "DodgeVegeta.jpg"
+                actionName: "Dodge",
+                actionDescription: "A powerful dodge defense",
+                actionImage: "DodgeVegeta.jpg"
 
             },
             {
-                defendName: "Heal",
-                defendDescription: "A healing technique that restores health",
-                defendImage: "HealVegeta.jpg"
+                actionName: "Heal",
+                actionDescription: "A healing technique that restores health",
+                actionImage: "HealVegeta.jpg"
 
             }
         ],

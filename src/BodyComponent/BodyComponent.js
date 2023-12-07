@@ -12,8 +12,9 @@ function BodyComponent() {
 
     const [isDisabled, setIsDisabledState] = useState(false)
 
-    const [attackMessage, setAttackMessage] = useState("")
-    const [defendMessage, setDefendMessage] = useState("")
+    const [attackMessage, setAttackMessage] = useState({})
+
+    const [defendMessage, setDefendMessage] = useState({})
 
     function onAttackClickHandler() {
 
@@ -39,7 +40,7 @@ function BodyComponent() {
             playerData = player2Data
         }
 
-        (e.target.name === "Attack")? setAttackMessage(playerData.attacks[+e.target.value].attackDescription) : setDefendMessage(playerData.defends[+e.target.value].defendDescription)
+        (e.target.name === "Attack")? setAttackMessage(playerData.attacks[+e.target.value]) : setDefendMessage(playerData.defends[+e.target.value])
 
         
     }
@@ -51,7 +52,6 @@ function BodyComponent() {
 
                 <li className="listItem1"><PlayerComponent
                     player= {player1Data}
-                    playerID= "1"
                     isDisabled= {isDisabled}
                     attackHandler={onAttackClickHandler}
                     liftHandler= {liftUpDataHandler}></PlayerComponent> </li>

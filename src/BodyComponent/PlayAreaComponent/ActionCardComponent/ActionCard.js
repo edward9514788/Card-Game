@@ -1,10 +1,12 @@
 function ActionCard(props) {
     return (
       <div className="actionCardComponent"> 
-        
-        <img src="GalickGun.jpg"></img>
 
-        <h3>{props.actionMessage}</h3>
+        <h1>{props.actionMessage.actionName}</h1>
+        <h3>{props.actionMessage.actionDescription}</h3>
+        <img src={props.actionMessage.actionImage}></img>
+
+        
         
         
       </div>
